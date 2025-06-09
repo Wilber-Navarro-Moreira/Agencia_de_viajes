@@ -12,4 +12,14 @@ if ($conn->query($sql) === TRUE) {
     echo "Error: " . $conn->error;
 }
 $conn->close();
+/**
+ * EJEMPLO
+ * if () {
+ *   try {
+ *      // conexión y consulta
+ *   } catch (Exception $e) {
+ *      
+ *   }
+ *} 
+*/
 ?>
