@@ -1,0 +1,16 @@
+<form action="insertar_hotel.php" method="post" onsubmit="return validarHotel()">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required><br>
+    <label>Ubicación:</label>
+    <input type="text" name="ubicacion" required><br>
+    <label>Habitaciones Disponibles:</label>
+    <input type="number" name="habitaciones" required><br>
+    <label>Tarifa por Noche:</label>
+    <input type="number" step="0.01" name="tarifa" required><br>
+    <input type="submit" value="Agregar Hotel">
+</form>
+<script>
+function validarHotel() {
+    return true;
+}
+</script>
