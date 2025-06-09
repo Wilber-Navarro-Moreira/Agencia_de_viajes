@@ -11,6 +11,18 @@
     <input type="number" step="0.01" name="precio" required><br>
     <input type="submit" value="Agregar Vuelo">
 </form>
+<form action="resumen_busqueda.php" method="get">
+    <label>Origen:</label>
+    <input type="text" name="origen" required><br>
+
+    <label>Destino:</label>
+    <input type="text" name="destino" required><br>
+
+    <label>Fecha de Salida:</label>
+    <input type="date" name="fecha_salida" required><br>
+
+    <input type="submit" value="Buscar Vuelos">
+</form>
 <script>
 function validarVuelo() {
     return true;
